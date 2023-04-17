@@ -15,4 +15,4 @@
 <br>
 
 ### **Other Places That You Can Find Me**
-[![linkedin.com](linkedin.png)](https://www.linkedin.com/in/jamesalbert)
+[![linkedin.com](linkedin.png)](https://www.linkedin.com/in/james-albert)
