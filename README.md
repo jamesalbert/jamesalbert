@@ -1,6 +1,6 @@
 ### **Some Facts About Me**
 
-- 🧱 I'm an DevOps Engineer at CrowdStrike
+- 🧱 I'm a DevOps Engineer at CrowdStrike
 
 - 🔥 Large proponent of "CICD or it didn't happen"
 
