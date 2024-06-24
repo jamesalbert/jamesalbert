@@ -1,6 +1,6 @@
 ### **Some Facts About Me**
 
-- 🧱 I'm an SRE at Roblox
+- 🧱 I'm an DevOps Engineer at CrowdStrike
 
 - 🔥 Large proponent of "CICD or it didn't happen"
 
