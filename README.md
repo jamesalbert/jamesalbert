@@ -46,16 +46,20 @@
 ### 📊 **GitHub Analytics**
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jamesalbert&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jamesalbert&hide=Makefile&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=jamesalbert&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jamesalbert&hide=Makefile&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&card_width=320"/>
 </div>
+
+<br/>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=jamesalbert&theme=tokyonight-duo&hide_border=true&background=0D1117"/>
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jamesalbert&theme=tokyo-night&hide_border=true&bg_color=0D1117"/>
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=jamesalbert&theme=tokyo-night&hide_border=true&bg_color=0D1117"/>
 </div>
 
 ---
