@@ -8,8 +8,10 @@
 
 ### 🚀 **About Me**
 
-- 🛠️ **DevOps Engineer & Infrastructure Enthusiast**
+- 🛠️ **DevOps/SRE Engineer with 10+ years building resilient systems at scale**
+- ☁️ **Multi-cloud expertise (AWS, GCP, Azure) with infrastructure-as-code focus**
 - 🔥 **Large proponent of "CICD or it didn't happen"**
+- 🎯 **Passionate about observability, automation, and zero-downtime deployments**
 - 🎮 **Currently getting** <a href="https://www.urbandictionary.com/define.php?term=insided" target="_blank">**insided on Rust**</a>
 
 ### 🛠️ **Tech Stack**
@@ -32,7 +34,12 @@
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![SaltStack](https://img.shields.io/badge/SaltStack-57BCAD?style=for-the-badge&logo=saltproject&logoColor=white)
 ![Chef](https://img.shields.io/badge/Chef-F09820?style=for-the-badge&logo=chef&logoColor=white)
+
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
