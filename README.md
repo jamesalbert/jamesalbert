@@ -1,6 +1,6 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+James+Albert+👋;DevOps+Engineer+%26+Infrastructure+Enthusiast;CICD+or+it+didn't+happen+🔥;Currently+getting+insided+on+Rust+🦀)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=800&lines=Hey+there!+I'm+James+Albert+👋;DevOps+Engineer+%26+Infrastructure+Enthusiast;CICD+or+it+didn't+happen+🔥;Currently+getting+insided+on+Rust+🎮)
 
 </div>
 
@@ -10,16 +10,16 @@
 
 - 🛠️ **DevOps Engineer & Infrastructure Enthusiast**
 - 🔥 **Large proponent of "CICD or it didn't happen"**
-- 🦀 **Currently getting** <a href="https://www.urbandictionary.com/define.php?term=insided" target="_blank">**insided on Rust**</a>
+- 🎮 **Currently getting** <a href="https://www.urbandictionary.com/define.php?term=insided" target="_blank">**insided on Rust**</a>
 
 ### 🛠️ **Tech Stack**
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
