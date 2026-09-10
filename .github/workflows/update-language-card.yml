@@ -1,0 +1,64 @@
+name: Update language card
+
+on:
+  schedule:
+    - cron: '17 9 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - '.github/workflows/update-language-card.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-language-card
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: master
+
+      - name: Generate language card
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: top-langs
+          options: username=jamesalbert&hide=Makefile&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&card_width=320
+          path: assets/top-languages.svg
+          core_version: '2.2.0'
+          fail_on_error: 'true'
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate generated SVG
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          content = Path('assets/top-languages.svg').read_text()
+          root = ET.fromstring(content)
+          assert root.tag == '{http://www.w3.org/2000/svg}svg'
+          assert 'Most Used Languages' in content
+          assert 'Something went wrong' not in content
+          assert not any(node.tag.split('}')[-1] in ('script', 'foreignObject') for node in root.iter())
+          PY
+
+      - name: Commit updated card
+        run: |
+          git add assets/top-languages.svg
+          if git diff --cached --quiet; then
+            echo 'Language card is unchanged.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh public repository language card'
+          git push origin HEAD:master
