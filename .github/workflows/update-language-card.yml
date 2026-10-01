@@ -29,7 +29,7 @@ jobs:
           ref: master
 
       - name: Generate language card
-        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
         with:
           card: top-langs
           options: username=jamesalbert&hide=Makefile&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&card_width=320
